@@ -1,0 +1,285 @@
+.container {
+    
+    max-width: 100%;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+.content {
+    position: absolute;
+    bottom: 0ch;
+    background: rgb(231, 235, 231);
+    opacity: 0.4;
+    text-decoration: dotted;
+    color: red;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.components {
+    border: 2px solid black;
+    border-radius: 2px;
+    background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);;
+    padding: 1px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 84%;
+   margin-top: 20px;
+   border-radius: 10px; 
+   box-shadow: 5px 5px 5px red;
+   overflow: hidden;
+   cursor: pointer;
+   box-sizing: border-box;
+}
+
+.body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 'Lato', 'sans-serif';
+    color: #777;
+    box-sizing: border-box;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-1 {
+    background-image: url('https://maiso.ru/files/user/390279/board/jelektrik-yMoxutlp.jpg');
+    min-height: 100%;
+}
+.bgimg-2 {
+    background-image: url('https://loftecomarket.ru/wp-content/uploads/2/f/2/2f2a1c93b85dd41c86378bbeab8b3c37.png');
+    min-height: 400px;
+}
+.bgimg-3 {
+    background-image: url('https://maiso.ru/files/user/390279/board/jelektrik-yMoxutlp.jpg');
+    min-height: 400px;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    
+}
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px 'Lato', sans-serif;
+    color: #111;
+}
+@media only screen and (max-device-width: 1024px) {
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+}
+
+}
+
+.box {
+    box-sizing: border-box;
+}
+
+::before, ::after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 19%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    height: 5%;
+}
+
+.card {
+    box-shadow:  2px 5px 5px black;
+}
+
+.st {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(45deg, red, blue);
+    color: black;
+}
+
+.body-1 {
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+   align-items: center;
+   font-family: sans-serif;
+   background-position: center;
+    background-size: cover;
+
+}
+.h2 {
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+}
+.quiz-box {
+background: linear-gradient(to top, rgb(213, 233, 233), cyan);
+overflow: hidden;
+border-radius: 5px;
+width: 100%;
+
+}
+.quiz-header {
+    padding: 64px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+  font-size: 25px;
+    margin: 15 0px;
+}
+ul li label {
+    cursor: pointer;
+}
+button {
+    background-color: #5ecbeb;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    padding: 15px;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: #438faa;
+}
+button:focus {
+    outline: none;
+    background-color: #5ecbeb;
+}
+
+.foto {
+   
+    margin-left: 5%;
+    width: 10%;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    height: 3%;
+
+}
+
+.quality {
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    margin-left: 10%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+  }
+    
+  .body-2 {
+    font-size: 10px;
+    font-family: "Sacramento", sans-serif;
+    background-color: #010a01;
+    display: flex;
+    justify-content: left;
+ 
+  
+  }  
+  
+  h4, h4 {
+    text-align: left;
+    font-weight: 10px;
+    width: 200px;
+    position: absolute;
+    top: 259px;
+    margin-left: 10%;
+  }
+
+    
+  h4 {
+    font-size: 30px;
+    animation: pulsate 0.3s infinite alternate;  
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 .20px #fff,
+              0 0 .20px #fff,
+              0 0 20px #bc13fe,
+              0 0 20px #bc13fe,
+              0 0 20px #bc13fe,
+              inset 0 0 10px #bc13fe; 
+  }
+  
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 90px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #bc13fe,
+      0 0 45px #bc13fe,
+      0 0 55px #bc13fe,
+      0 0 70px #bc13fe,
+      0 0 80px #bc13fe;
+  
+    }
+
+    
